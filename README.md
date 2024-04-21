@@ -1,7 +1,7 @@
 Create tarball: 
 ~~~
 mv debhello debhello-0.1
-tar -czf debhello-0.1.tar.gz debhello-0.1
+tar --exclude='.git' -czf debhello-0.1.tar.gz debhello-0.1
 ~~~
 
 After that is possible to start with packaging: 
