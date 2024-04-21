@@ -29,6 +29,9 @@ override_dh_usrlocal:
 ~~~
 
 Build
-~~~
-dpkg-buildpackage -B
-~~~
+
+`dpkg-buildpackage -B`
+
+or
+
+`debuild`
