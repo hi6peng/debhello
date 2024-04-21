@@ -1,3 +1,5 @@
+## manual build
+
 Create tarball: 
 ~~~
 mv debhello debhello-0.1
@@ -35,3 +37,10 @@ Build
 or
 
 `debuild`
+
+## automate build
+
+~~~
+apt-get install debmake -y
+bash deploy/packaging_deb.sh
+~~~
