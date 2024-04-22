@@ -1,4 +1,4 @@
-debhello (0.1-1) unstable; urgency=low
+debhello (0.1-1) jammy; urgency=low
 
   * Initial release.
 
