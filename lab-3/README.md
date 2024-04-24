@@ -1,4 +1,6 @@
-无 Makefile（shell，命令行界面）
+# 无 Makefile（shell，命令行界面）
+
+## init
 
 ~~~
 $ mkdir debhello-0.1
@@ -49,10 +51,16 @@ $ debmake -b ":sh" -t -p debhello -u 0.1 -r 1 -x1
 $ cd ..
 ~~~
 
-
 ~~~
 $ cp -af debhello-0.1 lab-3
 $ cd lab-3
 ~~~
 
 ... hack, hack, hack, ...
+
+## build
+
+~~~
+cp -af lab-3 debhello-0.1
+debuild
+~~~
