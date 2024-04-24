@@ -62,5 +62,8 @@ $ cd lab-3
 
 ~~~
 cp -af lab-3 debhello-0.1
+tar -czf debhello-0.1.tar.gz debhello-0.1
+cd debhello-0.1
+debmake
 debuild
 ~~~
