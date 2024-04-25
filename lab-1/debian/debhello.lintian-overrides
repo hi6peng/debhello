@@ -1,0 +1,2 @@
+debhello: binary-without-manpage usr/bin/hello
+debhello: initial-upload-closes-no-bugs
