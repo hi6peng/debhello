@@ -1,5 +1,6 @@
-debhello (0.1-1) focal; urgency=low
+debhello (0.1-1) UNRELEASED; urgency=low
 
-  * Initial release.
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
 
- -- 6peng <hi6peng@qq.com>  Sat, 20 Apr 2024 23:26:25 +0800
+ -- 6peng <hi6peng@qq.com>  Wed, 24 Apr 2024 21:33:59 +0800

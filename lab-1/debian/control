@@ -1,10 +1,10 @@
 Source: debhello
-Section: devel
+Section: unknown
 Priority: optional
 Maintainer: 6peng <hi6peng@qq.com>
 Build-Depends: debhelper (>=11~)
 Standards-Version: 4.1.4
-Homepage: https://github.com/hi6peng/debhello
+Homepage: <insert the upstream URL, if relevant>
 
 Package: debhello
 Architecture: any

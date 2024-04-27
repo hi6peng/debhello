@@ -1,46 +1,14 @@
-## manual build
-
-Create tarball: 
+debmake 使用 -x4 选项来生成最大数量的模板文件
 ~~~
-mv debhello debhello-0.1
-tar --exclude='.git' -czf debhello-0.1.tar.gz debhello-0.1
-~~~
-
-After that is possible to start with packaging: 
-~~~
-debmake
+$ mkdir debhello-0.1
+$ cd debhell0-0.1
+$ debmake -t -p debhello -u 0.1 -r 1 -x4
+$ cd ..
 ~~~
 
-Adjsut the override_dh_usrlocal:
+复制 debhello-0.1/debian/ 目录下所有生成的模板文件到您的软件包中
 ~~~
-#!/usr/bin/make -f
-# You must remove unused comment lines for the released package.
-#export DH_VERBOSE = 1
-#export DEB_BUILD_MAINT_OPTIONS = hardening=+all
-#export DEB_CFLAGS_MAINT_APPEND  = -Wall -pedantic
-#export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
-
-%:
-	dh $@  
-override_dh_usrlocal:
-#override_dh_auto_install:
-#	dh_auto_install -- prefix=/usr
-
-#override_dh_install:
-#	dh_install --list-missing -X.pyc -X.pyo
-~~~
-
-Build
-
-`dpkg-buildpackage -B`
-
-or
-
-`debuild`
-
-## automate build
-
-~~~
-apt-get install debmake -y
-bash deploy/packaging_deb.sh
+$ mkdir lab-2 
+$ cd lab-2
+$ mv ../debhello-0.1/debian .
 ~~~
