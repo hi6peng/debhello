@@ -52,8 +52,8 @@ $ cd ..
 ~~~
 
 ~~~
-$ cp -af debhello-0.1 lab-3
-$ cd lab-3
+$ cp -af debhello-0.1 lab-2
+$ cd lab-2
 ~~~
 
 ... hack, hack, hack, ...
@@ -61,7 +61,7 @@ $ cd lab-3
 ## build
 
 ~~~
-cp -af lab-3 debhello-0.1
+cp -af lab-2 debhello-0.1
 tar -czf debhello-0.1.tar.gz debhello-0.1
 cd debhello-0.1
 debmake
