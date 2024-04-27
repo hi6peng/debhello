@@ -1,5 +1,0 @@
-#!/bin/sh -e
-echo "Hello from the shell!"
-echo ""
-echo -n "Type Enter to exit this program: "
-read X
