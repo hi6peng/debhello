@@ -7,7 +7,7 @@ $ debmake -b',libsharedlib1,libsharedlib-dev' -t -p debhello -u 0.1 -r 1 -x1 -e 
 ## build
 
 ~~~
-cp -af lab-11 debhello-0.1
+cp -af lab-12 debhello-0.1
 tar -czf debhello-0.1.tar.gz debhello-0.1
 cd debhello-0.1
 debmake
