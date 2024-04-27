@@ -10,7 +10,7 @@ debian/control
 ## build
 
 ~~~
-cp -af lab-5 debhello-0.1
+cp -af lab-6 debhello-0.1
 tar -czf debhello-0.1.tar.gz debhello-0.1
 cd debhello-0.1
 debmake
