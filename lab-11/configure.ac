@@ -29,5 +29,6 @@ AC_PROG_CC
 AC_CONFIG_FILES([Makefile
                  data/Makefile
                  lib/Makefile
+		 man/Makefile
                  src/Makefile])
 AC_OUTPUT
