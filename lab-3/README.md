@@ -80,8 +80,8 @@ $ cd ..
 ~~~
 
 ~~~
-$ cp -af debhello-0.1 lab-4
-$ cd lab-4
+$ cp -af debhello-0.1 lab-3
+$ cd lab-3
 ~~~
 
 ... hack, hack, hack, ...
@@ -90,7 +90,7 @@ debian/rules
 ## build
 
 ~~~
-cp -af lab-4 debhello-0.1
+cp -af lab-3 debhello-0.1
 tar -czf debhello-0.1.tar.gz debhello-0.1
 cd debhello-0.1
 debmake
