@@ -7,6 +7,7 @@ Source: <url://example.com>
 Files:     Makefile.am
            README.md
            configure.ac
+           data/Makefile.am
            data/hello.desktop
            data/hello.png
            src/Makefile.am

@@ -36,5 +36,6 @@ AS_IF([test "x$with_math" != "xno"],[
 # Checks for programs.
 AC_PROG_CC
 AC_CONFIG_FILES([Makefile
+                 data/Makefile
                  src/Makefile])
 AC_OUTPUT
