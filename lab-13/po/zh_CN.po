@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debhello 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-28 22:35+0800\n"
+"PO-Revision-Date: 2024-04-28 22:35+0800\n"
+"Last-Translator: Osamu Aoki <osamu@debian.org>\n"
+"Language-Team: Chinese <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/hello.c:13
+#, c-format
+msgid "Hello, my name is %s!\n"
+msgstr "你好， 我是 %s!\n"
+
+#: lib/sharedlib.c:6
+#, c-format
+msgid "This is a shared library!\n"
+msgstr "这是一个共享库!\n"
+
+#: data/hello.desktop.in:3
+msgid "Hello"
+msgstr ""
+
+#: data/hello.desktop.in:4
+msgid "Greetings"
+msgstr "问候"
+
+#: data/hello.desktop.in:6
+msgid "hello"
+msgstr ""
+
+#: data/hello.desktop.in:9
+msgid "hello.png"
+msgstr ""
