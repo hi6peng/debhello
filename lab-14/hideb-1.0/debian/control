@@ -1,0 +1,12 @@
+Source: hideb
+Maintainer: First Last <someone@somewhere.com>
+Section: misc
+Priority: optional
+Standards-Version: 4.7.0
+Build-Depends: debhelper-compat (= 13)
+
+Package: hideb
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: greet user
+ hithere greets the user, or the world.
